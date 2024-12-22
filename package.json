@@ -5,7 +5,7 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "npm run build && wrangler dev",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && wrangler deploy --env production",
     "preview": "npm run build && wrangler versions upload",
     "typecheck": "react-router typegen && tsc"
   },
